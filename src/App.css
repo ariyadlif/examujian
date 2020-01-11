@@ -20,3 +20,275 @@
 .App-link {
   color: #09d3ac;
 }
+
+.item {
+  background-color: green;
+
+}
+
+.geser {
+  margin-right: 7px;
+}
+
+.lebar {
+  margin-right: 100px !important;
+  width: 400px !important;
+}
+
+.bulat {
+  border-radius: 40px !important;
+  width: 100px;
+}
+
+.geserbulat {
+  margin-left: 399px;
+  width: 230px;
+  height: 40px;
+}
+.geserbulatb {
+  margin-left: 200px;
+}
+
+.geser2{
+  margin-left: 7px;
+}
+
+.notif {
+  background-color: red;
+  border-radius: 1px;
+}
+
+.warna {
+  background-color: #f3f3f3;
+}
+
+.breadcrumbb {
+  color: white;
+  z-index: 626;
+  min-height: 250px;
+  background-image: url(./img/bg.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 45px 0 20px;
+  opacity: 0.8;
+}
+
+.turun {
+  padding-top: 40px;
+}
+
+.hapusbulat {
+  list-style-type: none;
+  z-index: 626;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #e9e9e9;
+  position: relative;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.inner {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.course_filter {
+  border: 1px solid #e6e7e9;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.split__filter, .search .form-control {
+  display: inline-block;
+  width: 20%;
+  margin-left: 40px;
+  border-radius: 40px !important;
+  position: relative;
+}
+
+.split__filter{
+  display: inline-block;
+  vertical-align: middle;
+  width: 20%;
+}
+
+.course_list > ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  display: block;
+}
+
+.course_list > ul li p.info_course {
+  color: #9aa0ab;
+  font-size: 14px;
+}
+
+.course_list > ul li p.info_course i.fa {
+  color: #215ca0;
+}
+
+.course_list > ul li:hover {
+  box-shadow: 0 4px 10px;
+}
+
+.course_list > ul li {
+  display: inline-block;
+  vertical-align: top;
+  width: 23%;
+  margin-right: 22px;
+  border: 1px solid #e6e7e9;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  float: left;
+}
+
+.course_list > ul li .image {
+  position: relative;
+}
+
+.course_list > ul li .image img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  object-fit: cover;
+  height: 180px;
+}
+
+.course_list > ul li .course_desc {
+  margin-right: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+.container2{
+    width: 1200px;
+  padding-right: 15px;
+  padding-left: 41px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.course_list > ul li .price {
+  float: right;
+}
+
+footer {
+  background-color: #434a54;
+  color: #b5babf;
+  padding: 80px 0 39px;
+}
+
+footer .widget .widget_title h3 {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+footer .widget .widget_description > ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+footer .widget .widget_description > ul li {
+  margin-bottom: 20px;
+}
+
+footer .widget .widget_description ul.media {
+  display: block;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+footer .widget .widget_description ul.media li {
+  display: inline-block;
+  margin-right: 13px;
+  margin-bottom: 0;
+}
+
+footer .widget .widget_description ul.media li a {
+  border-radius: 25px;
+  border: 1px solid #b5babf;
+  color: #9aa0ab;
+  font-size: 20px;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+footer .widget_description a:hover {
+  color: #b5babf;
+  text-decoration: none;
+}
+
+footer .copyright {
+  border-top: 1px solid #9aa0ab;
+  padding-top: 30px;
+}
+
+footer .copyright a {
+  color: #fff;
+}
+
+footer .widget .widget_description ul.media li a.facebook:hover {
+  background-color: #28529e;
+  color: #fff;
+}
+
+footer .widget .widget_description ul.media li a.twitter:hover {
+  background-color: #76a9ea;
+  color: #fff;
+}
+
+footer .widget .widget_description ul.media li a.gplus:hover {
+  background-color: #f34a38;
+  color: #fff;
+}
+
+.cari {
+  float: right;
+  min-width: 50px;
+  min-height: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.rata {
+  width: 200px;
+  height: 40px;
+  border-radius: 30px;
+  margin-left: 90px;
+}
+
+.tombol {
+  background-color: #2a2a72;
+  margin-left: 12px;
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  padding-top: 1px;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 4.25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.berjajar {
+  height: 1310px;
+}
